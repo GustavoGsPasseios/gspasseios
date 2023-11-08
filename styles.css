@@ -92,8 +92,9 @@ img {
 .modal { display: none; position: fixed; z-index: 1; padding-top: 5.4%; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.8); }
 .modal-content { margin: auto; width: 70%; padding: 2% 3% 3% 3%; background-color: #fefefe; text-align: left; color: #909090; border: 1px solid #888; }
 .imgmodal { float: left; margin: 0; padding: 0; margin-right: 2%; border-radius: 50%; box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 4px 20px 0 rgba(0,0,0,0.1); }
-.modal h1 { float: left; margin-top: 2%; margin-bottom: 6%; font-size: 2.8em; font-style: italic; text-transform: uppercase; font-weight: 700; color: #3f5578; }
-.modal h2 { float: left; margin-top: 2%; margin-bottom: 6%; font-size: 2.8em; font-style: italic; text-transform: uppercase; font-weight: 700; color: #3f5578; }
+.modal h1 { float: left; margin-top: 2%; margin-bottom: 6%; font-size: 2.9em; font-style: italic; text-transform: uppercase; font-weight: 700; color: #3f5578; }
+.modal h2 { float: left; margin-top: 2%; margin-bottom: 6%; font-size: 2.9em; font-style: italic; text-transform: uppercase; font-weight: 700; color: #3f5578; }
+h2.menor { font-size: 2.8em; }
 .modalmenor { display: block; font-size: 0.65em; font-weight: 400; letter-spacing: -1px; color: #b0b0b0; border-bottom: 2px solid #d2ddef; padding-bottom: 13px; }
 .modal p { padding-bottom: 3.2%; font-size: 2em; font-weight: 400; }
 .modal ul { padding-top: 1.4%; padding-bottom: 5%; text-align: left; list-style: none; }
@@ -187,8 +188,9 @@ img {
 
 @media screen and (max-width: 1870px){
 	.modal { padding-top: 5.5%; }
-	.modal h1 { font-size: 2.75em; }
-	.modal h2 { font-size: 2.75em; }
+	.modal h1 { font-size: 2.85em; }
+	.modal h2 { font-size: 2.85em; }
+	h2.menor { font-size: 2.75em; }
 	.modal p { font-size: 1.95em; }
 	.modal li { font-size: 1.95em; }
 	.close { font-size: 3.45em; }
@@ -196,8 +198,9 @@ img {
 
 @media screen and (max-width: 1780px){
 	.modal { padding-top: 5.7%; }
-	.modal h1 { font-size: 2.7em; }
-	.modal h2 { font-size: 2.7em; }
+	.modal h1 { font-size: 2.8em; }
+	.modal h2 { font-size: 2.8em; }
+	h2.menor { font-size: 2.7em; }
 	.modal p { font-size: 1.85em; }
 	.modal li { font-size: 1.85em; }
 	.close { font-size: 3.4em; }
@@ -206,8 +209,9 @@ img {
 @media screen and (max-width: 1680px){
 	.botao { font-size: 1.65em; }
 	.modal { padding-top: 6%; }
-	.modal h1 { font-size: 2.65em; margin-top: 2.5%; margin-bottom: 6.5%; }
-	.modal h2 { font-size: 2.65em; margin-top: 2.5%; margin-bottom: 6.5%; }
+	.modal h1 { font-size: 2.75em; margin-top: 2.5%; margin-bottom: 6.5%; }
+	.modal h2 { font-size: 2.75em; margin-top: 2.5%; margin-bottom: 6.5%; }
+	h2.menor { font-size: 2.65em; }
 	.modal p { font-size: 1.8em; }
 	.modal ul { padding-top: 0.8%; }
 	.modal li { font-size: 1.8em; padding-bottom: 1.2%; }
@@ -216,8 +220,9 @@ img {
 
 @media screen and (max-width: 1600px){
 	.modal { padding-top: 6.2%; }
-	.modal h1 { font-size: 2.6em; margin-top: 3%; }
-	.modal h2 { font-size: 2.6em; margin-top: 3%; }
+	.modal h1 { font-size: 2.7em; margin-top: 3%; }
+	.modal h2 { font-size: 2.7em; margin-top: 3%; }
+	h2.menor { font-size: 2.6em; }
 	.modal p { font-size: 1.75em; }
 	.modal li { font-size: 1.75em; }
 	.close { font-size: 3.3em; }
@@ -225,8 +230,9 @@ img {
 
 @media screen and (max-width: 1536px){
 	.modal { padding-top: 6.6%; }
-	.modal h1 { font-size: 2.45em; margin-top: 3.5%; }
-	.modal h2 { font-size: 2.45em; margin-top: 3.5%; }
+	.modal h1 { font-size: 2.55em; margin-top: 3.5%; }
+	.modal h2 { font-size: 2.55em; margin-top: 3.5%; }
+	h2.menor { font-size: 2.45em; }
 	.modal p { font-size: 1.7em; }
 	.modal li { font-size: 1.7em; }
 	.close { font-size: 3.2em; margin-top: 3.5%; }
@@ -236,8 +242,9 @@ img {
 @media screen and (max-width: 1440px){
 	.botao { font-size: 1.5em; }
 	.modal { padding-top: 6%; }
-	.modal h1 { font-size: 2.4em; }
-	.modal h2 { font-size: 2.4em; }
+	.modal h1 { font-size: 2.5em; }
+	.modal h2 { font-size: 2.5em; }
+	h2.menor { font-size: 2.4em; }
 	.modal p { font-size: 1.65em; }
 	.modal ul { padding-top: 0.5%; }
 	.modal li { font-size: 1.65em; }
@@ -250,8 +257,9 @@ img {
 
 @media screen and (max-width: 1380px){
 	.botao { font-size: 1.45em; }
-	.modal h1 { font-size: 2.35em; margin-top: 4%; }
-	.modal h2 { font-size: 2.35em; margin-top: 4%; }
+	.modal h1 { font-size: 2.45em; margin-top: 4%; }
+	.modal h2 { font-size: 2.45em; margin-top: 4%; }
+	h2.menor { font-size: 2.35em; }
 	.modal p { font-size: 1.6em; }
 	.modal li { font-size: 1.6em; padding-bottom: 1.4%; }
 	.close { font-size: 3em; }
@@ -262,8 +270,9 @@ img {
 	.botao { font-size: 1.4em; }
 	.modal { padding-top: 7%; }
 	.modal-content { width: 75%; }
-	.modal h1 { font-size: 2.2em; margin-top: 4.2%; margin-bottom: 7%; }
-	.modal h2 { font-size: 2.2em; margin-top: 4.2%; margin-bottom: 7%; }
+	.modal h1 { font-size: 2.3em; margin-top: 4.2%; margin-bottom: 7%; }
+	.modal h2 { font-size: 2.3em; margin-top: 4.2%; margin-bottom: 7%; }
+	h2.menor { font-size: 2.2em; }
 	.modal p { font-size: 1.55em; }
 	.modal li { font-size: 1.55em; }
 	.close { font-size: 2.9em; }
@@ -271,8 +280,9 @@ img {
 
 @media screen and (max-width: 1220px){
 	.imgmodal { margin-right: 1%; }
-	.modal h1 { font-size: 2.15em; margin-top: 4.4%; }
-	.modal h2 { font-size: 2.15em; margin-top: 4.4%; }
+	.modal h1 { font-size: 2.25em; margin-top: 4.4%; }
+	.modal h2 { font-size: 2.25em; margin-top: 4.4%; }
+	h2.menor { font-size: 2.15em; }
 	.modal p { font-size: 1.5em; }
 	.modal ul { padding-top: 0.7%; }
 	.modal li { font-size: 1.5em; }
@@ -281,8 +291,9 @@ img {
 
 @media screen and (max-width: 1180px){
 	.modal-content { width: 80%; }
-	.modal h1 { font-size: 2.1em; margin-top: 4.6%; }
-	.modal h2 { font-size: 2.1em; margin-top: 4.6%; }
+	.modal h1 { font-size: 2.2em; margin-top: 4.6%; }
+	.modal h2 { font-size: 2.2em; margin-top: 4.6%; }
+	h2.menor { font-size: 2.1em; }
 	.modal p { font-size: 1.48em; }
 	.modal li { font-size: 1.48em; }
 	.close { font-size: 2.7em; }
@@ -291,8 +302,9 @@ img {
 @media screen and (max-width: 1100px){
 	.modal { padding-top: 7.5%; }
 	.imgmodal { max-width: 135px; }
-	.modal h1 { font-size: 2em; }
-	.modal h2 { font-size: 2em; }
+	.modal h1 { font-size: 2.1em; }
+	.modal h2 { font-size: 2.1em; }
+	h2.menor { font-size: 2em; }
 	.modal p { font-size: 1.45em; }
 	.modal li { font-size: 1.45em; }
 	.close { font-size: 2.6em; }
@@ -304,8 +316,9 @@ img {
 
 @media screen and (max-width: 1068px){
 	.modal { padding-top: 8%; }
-	.modal h1 { font-size: 1.85em; }
-	.modal h2 { font-size: 1.85em; }
+	.modal h1 { font-size: 1.95em; }
+	.modal h2 { font-size: 1.95em; }
+	h2.menor { font-size: 1.85em; }
 	.modal p { font-size: 1.4em; }
 	.modal li { font-size: 1.4em; }
 	.close { font-size: 2.5em; }
@@ -319,15 +332,17 @@ img {
 	.fotobio { width: 72%; max-width: 72%; }
 	.modal { padding-top: 8.5%; }
 	.modal-content { width: 90%; }
-	.modal h1 { font-size: 1.8em; margin-bottom: 7.5%; }
-	.modal h2 { font-size: 1.8em; margin-bottom: 7.5%; }
+	.modal h1 { font-size: 1.9em; margin-bottom: 7.5%; }
+	.modal h2 { font-size: 1.9em; margin-bottom: 7.5%; }
+	h2.menor { font-size: 1.8em; }
 	.close { font-size: 2.45em; }
 }
 
 @media screen and (max-width: 860px){
 	.modal { padding-top: 9%; }
-	.modal h1 { font-size: 1.75em; margin-top: 5.5%; margin-bottom: 7.5%; }
-	.modal h2 { font-size: 1.75em; margin-top: 5.5%; margin-bottom: 7.5%; }
+	.modal h1 { font-size: 1.85em; margin-top: 5.5%; margin-bottom: 7.5%; }
+	.modal h2 { font-size: 1.85em; margin-top: 5.5%; margin-bottom: 7.5%; }
+	h2.menor { font-size: 1.75em; }
 	.modal p { font-size: 1.35em; padding-bottom: 3%; }
 	.modal ul { padding-top: 0.8%; }
 	.modal li { font-size: 1.35em; }
@@ -345,8 +360,9 @@ img {
 	.modal { padding-top: 9.5%; }
 	.modal-content { width: 90%; }
 	.imgmodal { max-width: 115px; }
-	.modal h1 { font-size: 1.7em; margin-top: 4.8%; margin-bottom: 6.2%; }
-	.modal h2 { font-size: 1.7em; margin-top: 4.8%; margin-bottom: 6.2%; }
+	.modal h1 { font-size: 1.8em; margin-top: 4.8%; margin-bottom: 6.2%; }
+	.modal h2 { font-size: 1.8em; margin-top: 4.8%; margin-bottom: 6.2%; }
+	h2.menor { font-size: 1.7em; }
 	.modal p { font-size: 1.3em; padding-bottom: 3.4%; }
 	.modal li { font-size: 1.3em; }
 	.close { font-size: 2.3em; }
@@ -362,8 +378,9 @@ img {
 	.buttonorcamento { padding: 2.5% 4%; }
 	.modal { padding-top: 10.4%; }
 	.imgmodal { max-width: 110px; }
-	.modal h1 { font-size: 1.65em; margin-top: 5%; margin-bottom: 7%; }
-	.modal h2 { font-size: 1.65em; margin-top: 5%; margin-bottom: 7%; }
+	.modal h1 { font-size: 1.75em; margin-top: 5%; margin-bottom: 7%; }
+	.modal h2 { font-size: 1.75em; margin-top: 5%; margin-bottom: 7%; }
+	h2.menor { font-size: 1.65em; }
 	.modal p { font-size: 1.2em; padding-bottom: 3.6%; line-height: 1.4em }
 	.modal ul { padding-top: 1%; }
 	.modal li { font-size: 1.2em; }
@@ -375,8 +392,9 @@ img {
 	.botao { font-size: 1.5em; }
 	.buttonorcamento { padding: 3% 4%; }
 	.modal { padding-top: 10.8%; }
-	.modal h1 { font-size: 1.6em; margin-top: 5.8%; margin-bottom: 7.2%; }
-	.modal h2 { font-size: 1.6em; margin-top: 5.8%; margin-bottom: 7.2%; }
+	.modal h1 { font-size: 1.7em; margin-top: 5.8%; margin-bottom: 7.2%; }
+	.modal h2 { font-size: 1.7em; margin-top: 5.8%; margin-bottom: 7.2%; }
+	h2.menor { font-size: 1.6em; }
 	.modalmenor { font-size: 0.6em; font-weight: 300; letter-spacing: -1px; padding-bottom: 12px; }
 	.modal p { font-size: 1.16em; padding-bottom: 6%; }
 	.modal ul { padding-bottom: 6%; }
@@ -390,9 +408,10 @@ img {
 
 @media screen and (max-width: 580px){
 	.modal { padding-top: 11%; }
-	.imgmodal { max-width: 100px; }
-	.modal h1 { font-size: 1.6em; margin-top: 6.5%; margin-bottom: 12%; }
-	.modal h2 { font-size: 1.6em; margin-top: 6.5%; margin-bottom: 12%; }
+	.imgmodal { max-width: 100px; margin-top: 1.6%; }
+	.modal h1 { font-size: 1.7em; margin-bottom: 11%; }
+	.modal h2 { font-size: 1.7em; margin-bottom: 11%; }
+	h2.menor { font-size: 1.6em; }
 	.close { font-size: 2em; margin-top: 6%; }
 }
 
@@ -416,8 +435,9 @@ img {
 	.botao { font-size: 1.4em; }
 	.modal { padding-top: 11.8%; }
 	.imgmodal { max-width: 90px; margin-right: 1%; }
-	.modal h1 { font-size: 1.45em; margin-bottom: 14%; }
-	.modal h2 { font-size: 1.45em; margin-bottom: 14%; }
+	.modal h1 { font-size: 1.55em; margin-bottom: 14%; }
+	.modal h2 { font-size: 1.55em; margin-bottom: 14%; }
+	h2.menor { font-size: 1.45em; }
 	.modal p { font-size: 1.15em; padding-left: 0; padding-bottom: 5%; }
 	.modal ul { padding-bottom: 5%; }
 	.modal li { font-size: 1.15em; padding-bottom: 1.9%; }
@@ -428,8 +448,9 @@ img {
 @media screen and (max-width: 420px){
 	img { width: 75%; max-width: 75%; }
 	.modal { padding-top: 12%; }
-	.modal h1 { font-size: 1.35em; margin-top: 7.5%; margin-bottom: 16%; }
-	.modal h2 { font-size: 1.35em; margin-top: 7.5%; margin-bottom: 16%; }
+	.modal h1 { font-size: 1.45em; margin-top: 7.5%; margin-bottom: 16%; }
+	.modal h2 { font-size: 1.45em; margin-top: 7.5%; margin-bottom: 16%; }
+	h2.menor { font-size: 1.35em; }
 	.modal p { padding-bottom: 7%; }
 	.modal ul { padding-bottom: 7%; }
 	.close { margin-top: 5%; }
@@ -438,8 +459,9 @@ img {
 @media screen and (max-width: 400px){
 	.modal { padding-top: 12.4%; }
 	.imgmodal { max-width: 75px; margin-right: 1%; }
-	.modal h1 { font-size: 1.3em; margin-top: 6%; margin-bottom: 15%; }
-	.modal h2 { font-size: 1.3em; margin-top: 6%; margin-bottom: 15%; }
+	.modal h1 { font-size: 1.4em; margin-top: 6%; margin-bottom: 15%; }
+	.modal h2 { font-size: 1.4em; margin-top: 6%; margin-bottom: 15%; }
+	h2.menor { font-size: 1.3em; }
 }
 
 @media screen and (max-width: 380px){
@@ -455,8 +477,9 @@ img {
 	.botoes { width: 85%; margin: 0 8% 2% 8%; }
 	.modal { padding-top: 13%; }
 	.imgmodal { max-width: 65px; }
-	.modal h1 { font-size: 1.2em; margin-top: 5%; margin-bottom: 13%; }
-	.modal h2 { font-size: 1.2em; margin-top: 5%; margin-bottom: 13%; }
+	.modal h1 { font-size: 1.3em; margin-top: 5%; margin-bottom: 13%; }
+	.modal h2 { font-size: 1.3em; margin-top: 5%; margin-bottom: 13%; }
+	h2.menor { font-size: 1.2em; }
 	.modal p { font-size: 1.1em; padding-bottom: 11%; }
 	.modal ul { padding-bottom: 11%; }
 	.modal li { font-size: 1.1em; padding-bottom: 2%; }
@@ -467,14 +490,16 @@ img {
 	.modal { padding-top: 13.2%; }
 	.imgmodal { max-width: 60px; }
 	.botao { font-size: 1.2em; }
-	.modal h1 { font-size: 1.15em; }
-	.modal h2 { font-size: 1.15em; }
+	.modal h1 { font-size: 1.25em; }
+	.modal h2 { font-size: 1.25em; }
+	h2.menor { font-size: 1.15em; }
 }
 
 @media screen and (max-width: 320px){
 	.botao { font-size: 1.1em; }
-	.modal h1 { font-size: 1.1em; }
-	.modal h2 { font-size: 1.1em; }
+	.modal h1 { font-size: 1.2em; }
+	.modal h2 { font-size: 1.2em; }
+	h2.menor { font-size: 1.1em; }
 	.modal p { font-size: 1em; padding-bottom: 11.5%; }
 	.modal ul { padding-bottom: 11.5%; }
 	.modal li { font-size: 1em; padding-bottom: 2.2%; }
