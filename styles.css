@@ -39,6 +39,7 @@ img {
 .botoes {
 	width: 100%;
 	padding: 11% 0 2% 0;
+	margin-bottom: 22%;
 	text-align: center;
 	animation-name: aparecerbotoes;
 	animation-duration: 2s;
@@ -70,23 +71,40 @@ img {
 }
 
 .creditos {
-	margin-top: 5%;
-	padding-bottom: 16%;
-	font-size: 0.8em;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 	font-weight: 300;
 	text-align: center;
-	color: #242424;
+	line-height: 1.4em;
+	background-color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 4px 20px 0 rgba(0,0,0,0.1);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.creditos p {
+	padding: 4% 0 3% 0;
+}
+
+.pularcreditos {
+	display: block;
 }
 
 .creditos a {
-	color: #242424;
+	text-transform: uppercase;
+	color: #7f7f7f;
 	text-decoration: none;
 }
 
-.incodestudio {
-	color: #242424;
-	font-weight: 400;
+.creditos a:hover {
+	color: #2e2e2e;
+}
+
+a.creditotitu {
+	font-weight: 700;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	color: #4f4f4f;
 }
 
 .modal { display: none; position: fixed; z-index: 1; padding-top: 5.4%; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.8); }
@@ -276,6 +294,7 @@ h2.menor { font-size: 2.8em; }
 	.modal p { font-size: 1.55em; }
 	.modal li { font-size: 1.55em; }
 	.close { font-size: 2.9em; }
+	.creditos { font-size: 0.9em; }
 }
 
 @media screen and (max-width: 1220px){
@@ -324,6 +343,10 @@ h2.menor { font-size: 2.8em; }
 	.close { font-size: 2.5em; }
 }
 
+@media screen and (max-width: 1024px){
+	.creditos { font-size: 0.8em; }
+}
+
 @media screen and (max-width: 1000px){
 	#botoes { display: none; }
 }
@@ -356,7 +379,7 @@ h2.menor { font-size: 2.8em; }
 @media screen and (max-width: 768px){
 	#wrapper { padding-top: 4%; }
 	.fotobio { width: 70%; max-width: 70%; }
-	.botoes { width: 92%; margin: 0 4% 2% 4%; padding: 14% 0 2% 0; }
+	.botoes { width: 92%; margin: 0 4% 20% 4%; padding: 14% 0 2% 0; }
 	.modal { padding-top: 9.5%; }
 	.modal-content { width: 90%; }
 	.imgmodal { max-width: 115px; }
@@ -366,7 +389,7 @@ h2.menor { font-size: 2.8em; }
 	.modal p { font-size: 1.3em; padding-bottom: 3.4%; }
 	.modal li { font-size: 1.3em; }
 	.close { font-size: 2.3em; }
-	.creditos { margin-top: 5%; }
+	.creditos { width: 92%; margin: 0 auto; }
 }
 
 @media screen and (max-width: 720px){
@@ -417,13 +440,14 @@ h2.menor { font-size: 2.8em; }
 
 @media screen and (max-width: 560px){
 	.fotobio { width: 68%; max-width: 68%; }
-	.botoes { width: 80%; margin: 0 10% 2% 10%; padding: 12% 0 2% 0; }
+	.botoes { width: 80%; margin: 0 10% 20% 10%; padding: 12% 0 2% 0; }
 	.botao { font-size: 1.45em; margin-bottom: 4.5%; padding: 4.8%; }
 	.modal-content { padding: 4%; }
 	.modalmenor { padding-bottom: 10px; }
 	.modal p { padding-bottom: 4%; }
 	.modal li { padding-bottom: 1.8%; }
 	.close { margin-top: 5.8%; }
+	.creditos { width: 80%; }
 }
 
 @media screen and (max-width: 540px){
@@ -442,7 +466,8 @@ h2.menor { font-size: 2.8em; }
 	.modal ul { padding-bottom: 5%; }
 	.modal li { font-size: 1.15em; padding-bottom: 1.9%; }
 	.close { margin-top: 4.8%; }
-	.creditos {	font-size: 0.7em; }
+	.creditos {	font-size: 0.75em; }
+	.creditos p { padding: 5% 0 4% 0; }
 }
 
 @media screen and (max-width: 420px){
@@ -474,7 +499,7 @@ h2.menor { font-size: 2.8em; }
 
 @media screen and (max-width: 360px){
 	#wrapper { padding-top: 6%; }
-	.botoes { width: 85%; margin: 0 8% 2% 8%; }
+	.botoes { width: 85%; margin: 0 8% 20% 8%; }
 	.modal { padding-top: 13%; }
 	.imgmodal { max-width: 65px; }
 	.modal h1 { font-size: 1.3em; margin-top: 5%; margin-bottom: 13%; }
@@ -484,6 +509,7 @@ h2.menor { font-size: 2.8em; }
 	.modal ul { padding-bottom: 11%; }
 	.modal li { font-size: 1.1em; padding-bottom: 2%; }
 	.close { margin-top: 2.8%; }
+	.creditos {	font-size: 0.7em; }
 }
 
 @media screen and (max-width: 340px){
@@ -493,6 +519,7 @@ h2.menor { font-size: 2.8em; }
 	.modal h1 { font-size: 1.25em; }
 	.modal h2 { font-size: 1.25em; }
 	h2.menor { font-size: 1.15em; }
+	.creditos {	font-size: 0.65em; }
 }
 
 @media screen and (max-width: 320px){
