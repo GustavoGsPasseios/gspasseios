@@ -115,7 +115,7 @@ a.creditotitu {
 h2.menor { font-size: 2.8em; }
 .modalmenor { display: block; font-size: 0.65em; font-weight: 400; letter-spacing: -1px; color: #b0b0b0; border-bottom: 2px solid #d2ddef; padding-bottom: 13px; }
 .modal p { padding-bottom: 3.2%; font-size: 2em; font-weight: 400; }
-.modal ul { padding-top: 1.4%; padding-bottom: 5%; text-align: left; list-style: none; }
+.modal ul { padding-top: 3.2%; padding-bottom: 5%; text-align: left; list-style: none; }
 .modal li { padding-bottom: 1.25%; font-size: 2em; font-weight: 400; }
 .modal li.titu { font-weight: 700; text-transform: uppercase; padding-top: 1%; padding-bottom: 2.6%; }
 .modal li.linhamenor { padding: 0; }
@@ -370,10 +370,6 @@ h2.menor { font-size: 2.8em; }
 	.modal ul { padding-top: 0.8%; }
 	.modal li { font-size: 1.35em; }
 	.close { font-size: 2.35em; margin-top: 4.1%; }
-	#botoes { bottom: 1%; }
-	#botoes a { width: 46px; height: 46px; font-size: 1.5em; padding-left: 0; }
-	#botoes a.msgmenor { font-size: 1.2em; }
-	#botoes a.setacima { font-size: 2em; }
 }
 
 @media screen and (max-width: 768px){
