@@ -80,10 +80,13 @@ img {
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 4px 20px 0 rgba(0,0,0,0.1);
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
+	animation-name: aparecercreditos;
+	animation-duration: 25s;
 }
 
 .creditos p {
 	padding: 4% 0 3% 0;
+	color: #e6e6e6;
 }
 
 .pularcreditos {
@@ -91,18 +94,17 @@ img {
 }
 
 .creditos a {
-	text-transform: uppercase;
-	color: #7f7f7f;
+	color: #4f4f4f;
 	text-decoration: none;
 }
 
 .creditos a:hover {
-	color: #2e2e2e;
+	color: #000;
 }
 
 a.creditotitu {
+	text-transform: uppercase;
 	font-weight: 700;
-	word-spacing: 0.1em;
 	letter-spacing: 0.1em;
 	color: #4f4f4f;
 }
@@ -542,4 +544,9 @@ h2.menor { font-size: 2.8em; }
   0% { transform: scale(1); }
   65% { transform: scale(1.13); }
   100% { transform: scale(1); }
+}
+
+@keyframes aparecercreditos{
+	0% { opacity: 0; }
+	100% { opacity: 1; }
 }
